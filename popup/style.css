@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px;
+    margin: 15px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p.hint {
+    margin: 10px 0;
+}
+
+button, input {
+    outline: none;
+}
+
+.prod-website {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+#no-content {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.prod-website-address {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    max-width: calc(100% - 20px);
+}
+
+.prod-website-remove {
+    border: none;
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 10px;
+    border-radius: 50px;
+    text-align: center;
+    background: #F1F1F1;
+    cursor: pointer;
+    color: #797979;
+    margin-left: 5px;
+}
+
+.prod-website-remove:hover {
+    background: red;
+    color: white;
+}
+
+#add-website-match-indicator {
+    color: gray;
+    overflow-wrap: break-word;
+}
+
+#add-website-match-indicator .indicated {
+    color: green;
+    font-weight: bold;
+}
+
+#add-website {
+    display: flex;
+    background: #F1F1F1;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#add-website.error {
+    border: 2px solid red;
+}
+
+#add-website.error #add-website-button {
+    background: red;
+}
+
+#add-website.error #add-website-input {
+    color: red;
+}
+
+#add-website-input {
+    flex-grow: 1;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #F1F1F1;
+    padding: 5px 8px;
+}
+
+#add-website-error {
+    color: red;
+    margin-top: 5px;
+}
+
+#add-website-button {
+    width: 100%;
+    border: 0;
+    color: white;
+    background: green;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#add-website-button:hover {
+    background: rgb(9, 151, 9);
+}

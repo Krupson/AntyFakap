@@ -1,0 +1,34 @@
+{
+    "extName": {
+        "message": "AntiFckup",
+        "description": "Extension name."
+    },
+    "extDesc": {
+        "message": "Prevents f**kups displaying warning overlay when you are visiting prod website.",
+        "description": "Extension description."
+    },
+    "addProdWebsiteHeader": {
+        "message": "Add website",
+        "description": "Add website section header inside browser action popup."
+    },
+    "addProdWebsiteHint": {
+        "message": "Decide which part of URL should tell us that you are visiting prod website right now.",
+        "description": "Short hint on how to add prod website."
+    },
+    "addProdWebsiteButton": {
+        "message": "Add",
+        "description": "Add prod website button label."
+    },
+    "prodWebsites": {
+        "message": "Prod websites",
+        "description": "Prod websites section header inside browser action popup."
+    },
+    "noProdWebsites": {
+        "message": "No prod websites added. You can add them using \"Add website\" section above.",
+        "description": "Label displayed inside prod websites list when its empty."
+    },
+    "websiteDuplicationError": {
+        "message": "Website you are trying to add is already on the list!",
+        "description": "Error displayed when user tries to add website that is already addes to prod websites list."
+    }
+}

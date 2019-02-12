@@ -1,0 +1,28 @@
+{
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDesc__",
+    "version": "0.1.0",
+    "default_locale": "en",
+    "permissions": ["activeTab", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["overlay/style.css"],
+        "js": ["overlay/scripts.js"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    },
+    "manifest_version": 2
+}

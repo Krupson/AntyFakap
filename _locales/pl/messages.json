@@ -1,0 +1,26 @@
+{
+    "extName": {
+        "message": "AntyFakap"
+    },
+    "extDesc": {
+        "message": "Chroni przed fakapami wyświetlając ostrzeżenie, jeżeli jesteś na stronie produkcyjnej."
+    },
+    "addProdWebsiteHeader": {
+        "message": "Dodaj stronę"
+    },
+    "addProdWebsiteHint": {
+        "message": "Zaznacz część adresu, na podstawie której dodatek ma wnioskować czy strona jest prodem."
+    },
+    "addProdWebsiteButton": {
+        "message": "Dodaj"
+    },
+    "prodWebsites": {
+        "message": "Strony produkcyjne"
+    },
+    "noProdWebsites": {
+        "message": "Nie masz żadnych dopasowań do stron produkcyjnych. Dodaj nowe w sekcji powyżej."
+    },
+    "websiteDuplicationError": {
+        "message": "Podana strona jest już na liście!"
+    }
+}
